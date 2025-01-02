@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load the scaler and model
-scaler_path = "D:/Machine Learning/Dataset Supervised/scaler_svm.sav"
-model_path = "D:/Machine Learning/Dataset Supervised/fish_svm.sav"
+scaler_path = "scaler_svm.sav"
+model_path = "fish_svm.sav"
 
 with open(scaler_path, 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
